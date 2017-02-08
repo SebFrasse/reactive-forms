@@ -1,0 +1,30 @@
+.menu {
+  background: lightgrey;
+  color: darkblue;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+}
+
+a.menu:link {
+  color: cornflowerblue;
+}
+
+a.menu:visited {
+  color: cornflowerblue;
+  color:darkblue;
+}
+
+a.menu:hover {
+  color:darkblue;
+}
+
+a.menu:active {
+  color:darkblue;
+}
+
+.content {
+  margin: 20px;
+}
