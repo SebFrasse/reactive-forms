@@ -11,6 +11,7 @@ import { states } from './shared/data-model';
   styleUrls: ['./detail.component.css']
 })
 export class DetailComponent implements OnInit {
+// TODO! Skapa en modell för value radio buttons
 
   form: FormGroup ;
   states = states;
