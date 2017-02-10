@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms'; 
 import { HttpModule } from '@angular/http';
+import { AlertModule } from 'ng2-bootstrap';  // bootstrap addition
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +27,7 @@ import { DetailComponent } from './components/detail/detail.component';
     BrowserModule,
     ReactiveFormsModule,
     HttpModule,
+    AlertModule.forRoot(),    //bootstrap addition
     AppRoutingModule
   ],
   providers: [],

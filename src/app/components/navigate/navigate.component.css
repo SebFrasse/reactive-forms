@@ -14,4 +14,14 @@
   color: white;
 }
 
-
+.logobox {
+  height: 60px;
+  max-width: 100px;
+  position: absolute;
+  background-color: green;
+  margin-top: 0;
+  margin-left: 20px;
+  color: white;
+  float: left;
+  z-index: 10;
+}
